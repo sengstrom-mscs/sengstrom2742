@@ -4,106 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732e8c80-e2f4-453c-afcb-4945eb7155c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20220924.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comc2742-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1a/sengstrom2742ex1a.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1a/src/domain/GDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1a/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1b/sengstrom2742ex1b.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1b/src/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1b/src/domain/GDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1b/src/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1b/src/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1b/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1b/test/domain/GDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1b/test/domain/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1b/test/domain/LineItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/sengstrom2742ex1c.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/src/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/src/domain/GDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/src/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/src/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/src/ui/InvoiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/src/ui/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/src/ui/InvoiceView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/test/domain/GDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/test/domain/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1c/test/domain/LineItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/sengstrom2742ex1d.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/domain/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/ui/ApartmentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/ui/ApartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/ui/ApartmentView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/ui/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/ui/InvoiceView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/test/domain/ApartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/test/domain/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/test/domain/LineItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1d/test/domain/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/sengstrom2742ex1e.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/domain/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/ui/ApartmentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/ui/ApartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/ui/ApartmentView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/ui/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/ui/InvoiceView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/test/domain/ApartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/test/domain/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/test/domain/LineItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex1e/test/domain/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/sengstrom2742ex2a.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/ContractAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/HourlyAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/TimeCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/test/domain/ApartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/test/domain/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/test/domain/LineItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2a/test/domain/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2b1/sengstrom2742ex2b1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/people.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/resources/people.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/sengstrom2742ex2c1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/dataaccess/PeopleJSONParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/ContractAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/HourlyAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/TimeCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/ui/Main.java" afterDir="false" />
+    <list default="true" id="732e8c80-e2f4-453c-afcb-4945eb7155c2" name="Changes" comment="completed ex2c">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -145,7 +48,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -240,8 +143,23 @@
       <option name="presentableId" value="Default" />
       <updated>1668276386753</updated>
       <workItem from="1668276388039" duration="63000" />
-      <workItem from="1668276518990" duration="26044000" />
+      <workItem from="1668276518990" duration="26266000" />
     </task>
+    <task id="LOCAL-00001" summary="completed ex2c">
+      <created>1668307712254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668307712254</updated>
+    </task>
+    <task id="LOCAL-00002" summary="completed ex2c">
+      <created>1668307743584</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668307743584</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +175,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed ex2c" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed ex2c" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
