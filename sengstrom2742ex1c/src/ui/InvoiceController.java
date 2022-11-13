@@ -1,0 +1,206 @@
+package ui;
+
+import domain.DbContext;
+import domain.GDate;
+import domain.Invoice;
+import domain.LineItem;
+import javafx.event.ActionEvent;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
+import java.util.ArrayList;
+import java.util.Date;
+
+import javafx.fxml.FXML;
+import javafx.scene.input.MouseEvent;
+
+public class InvoiceController {
+    @FXML
+    public TextField invoiceIdTextField;
+    @FXML
+    public TextField statusTextField;
+    @FXML
+    public TextField invoiceDateTextField;
+    @FXML
+    public TextField dueDateTextField;
+    @FXML
+    public ComboBox invoicesComboBox;
+    @FXML
+    public ListView lineItemsListView;
+    @FXML
+    public TextField descriptionTextField;
+    @FXML
+    public TextField amountTextField;
+    @FXML
+    public TextField totalTextField;
+
+    private ArrayList<Invoice> invoices = new ArrayList<Invoice>();
+
+
+    public InvoiceController() {
+        this.invoices = DbContext.getInvoices();
+    }
+
+    @FXML
+    private void displayInvoice(Invoice invoice){
+        this.invoiceIdTextField.setText(Integer.toString(invoice.getInvoiceId()));
+        this.statusTextField.setText(Integer.toString(invoice.getStatus()));
+        this.invoiceDateTextField.setText(invoice.getInvoiceDate().toString());
+        this.dueDateTextField.setText(invoice.getDueDate().toString());
+    }
+    @FXML
+    private void displayLineItems(LineItem lineItem) {
+        this.descriptionTextField.setText(lineItem.getDescription());
+        this.amountTextField.setText(Double.toString(lineItem.getAmount()));
+    }
+
+    @FXML
+    protected void initialize(){
+        for (Invoice invoice:this.invoices){
+            invoicesComboBox.getItems().add(invoice.toShortString());
+        }
+        invoicesComboBox.getSelectionModel().selectFirst();
+
+        Invoice invoice = this.invoices.get(0);
+        this.displayInvoice(invoice);
+        this.displayLineItems(invoice);
+    }
+
+    @FXML
+    public void invoiceComboBoxItemSelected(ActionEvent actionEvent) {
+        int index = invoicesComboBox.getSelectionModel().getSelectedIndex();
+        if (index >= 0) {
+            Invoice invoice = this.invoices.get(index);
+            this.displayInvoice(invoice);
+            this.displayLineItems(invoice);
+        }
+    }
+
+    @FXML
+    private void displayLineItems(Invoice invoice){
+        this.lineItemsListView.getItems().clear();
+        ArrayList<LineItem> lineItems = invoice.getLineItems();
+        for (LineItem lineItem : lineItems) {
+            lineItemsListView.getItems().add(lineItem.toShortString());
+        }
+        this.descriptionTextField.setText("");
+        this.amountTextField.setText("");
+        this.lineItemsListView.getSelectionModel().selectFirst();
+        if (lineItems.size() > 0 ) {
+            displayLineItem(lineItems.get(0));
+        }
+
+        this.totalTextField.setText(String.format("%.2f", invoice.total()));
+    }
+
+    @FXML
+    private void displayLineItem(LineItem lineItem) {
+        // set TextFields using lineItem
+        this.descriptionTextField.setText(lineItem.getDescription());
+        this.amountTextField.setText(String.format("%.2f", lineItem.getAmount()));
+    }
+
+    @FXML
+    public void lineItemsListViewClicked(MouseEvent mouseEvent) {
+        int index = this.invoicesComboBox.getSelectionModel().getSelectedIndex();
+        invoices.get(index).getLineItems();
+        ArrayList<LineItem> lineItems = invoices.get(index).getLineItems();
+        int index2 = this.lineItemsListView.getSelectionModel().getSelectedIndex();
+        LineItem lineItem = lineItems.get(index2);
+        displayLineItems(lineItem);
+    }
+
+    @FXML
+    public void saveInvoiceButtonClicked(ActionEvent actionEvent) {
+        int index = this.invoicesComboBox.getSelectionModel().getSelectedIndex();
+        invoices.get(index).getLineItems();
+        Invoice invoice = this.invoices.get(index);
+        int invoiceStatus = Integer.parseInt(this.statusTextField.getText());
+        invoice.setStatus(invoiceStatus);
+
+
+        GDate invoiceDate = new GDate(
+                Integer.parseInt(this.invoiceDateTextField.getText().substring(0, 4)),
+                Integer.parseInt(this.invoiceDateTextField.getText().substring(5, 7)),
+                Integer.parseInt(this.invoiceDateTextField.getText().substring(8, 10)));
+
+        invoice.setInvoiceDate(invoiceDate);
+
+        GDate invoiceDueDate = new GDate(
+                Integer.parseInt(this.dueDateTextField.getText().substring(0, 4)),
+                Integer.parseInt(this.dueDateTextField.getText().substring(5, 7)),
+                Integer.parseInt(this.dueDateTextField.getText().substring(8, 10)));
+
+        invoice.setDueDate(invoiceDueDate);
+
+        this.invoicesComboBox.getItems().remove(index);
+        this.invoicesComboBox.getItems().add(invoice.toShortString());
+        this.invoicesComboBox.getSelectionModel().select(index);
+
+    }
+
+    @FXML
+    public void saveLineItemButtonClicked(ActionEvent actionEvent) {
+        int invoiceIndex = invoicesComboBox.getSelectionModel().getSelectedIndex();
+        Invoice invoice = this.invoices.get(invoiceIndex);
+        int lineItemIndex = lineItemsListView.getSelectionModel().getSelectedIndex();
+        invoice.removeLineItem(lineItemIndex);
+//        LineItem lineItem = (LineItem) this.lineItemsListView.getItems().get(lineItemIndex);
+        LineItem lineItem = new LineItem(Double.parseDouble(
+                this.amountTextField.getText()),
+                this.descriptionTextField.getText().trim());
+        invoice.addLineItem(lineItemIndex, lineItem);
+
+        this.lineItemsListView.getItems().remove(lineItemIndex);
+        this.lineItemsListView.getItems().add(lineItemIndex, lineItem.toShortString());
+        this.lineItemsListView.getSelectionModel().select(lineItemIndex);
+        this.totalTextField.setText(String.format("0.2f", invoice.total()));
+
+    }
+
+    @FXML
+    public void addLineItemButtonClicked(ActionEvent actionEvent) {
+        int invoiceIndex = invoicesComboBox.getSelectionModel().getSelectedIndex();
+        Invoice invoice = this.invoices.get(invoiceIndex);
+        int lineItemIndex = lineItemsListView.getSelectionModel().getSelectedIndex();
+        LineItem lineItem = new LineItem(0.0, "");
+        invoice.addLineItem(lineItemIndex, lineItem);
+        this.lineItemsListView.getItems().add(lineItemIndex, lineItem.toShortString());
+        lineItemsListView.getSelectionModel().selectLast();
+        lineItemsListView.scrollTo(lineItemIndex-1);
+        this.displayLineItems(lineItem);
+        descriptionTextField.requestFocus();
+
+        this.totalTextField.setText(String.format("0.2f", invoice.total()));
+
+    }
+
+    @FXML
+    public void deleteLineItemButtonClicked(ActionEvent actionEvent) {
+        this.descriptionTextField.setText("");
+        this.amountTextField.setText("");
+
+        int invoiceIndex = this.invoicesComboBox.getSelectionModel().getSelectedIndex();
+        if (invoiceIndex >= 0) {
+            Invoice invoice = this.invoices.get(invoiceIndex);
+            int lineItemIndex = lineItemsListView.getSelectionModel().getSelectedIndex();
+
+            if(lineItemIndex >= 0){
+                invoice.removeLineItem(lineItemIndex);
+                this.lineItemsListView.getItems().remove(lineItemIndex);
+                this.lineItemsListView.getSelectionModel().selectLast();
+                lineItemIndex = this.lineItemsListView.getSelectionModel().getSelectedIndex();
+                if (lineItemIndex >=0) {
+                    this.lineItemsListView.scrollTo(lineItemIndex);
+                    LineItem lineItem = invoice.getLineItem(lineItemIndex);
+                    displayLineItems(lineItem);
+                }
+                this.totalTextField.setText(String.format("0.2f", invoice.total()));
+            }
+        }
+        //LineItem lineItem = new LineItem(0.0, "");
+
+
+
+    }
+}
