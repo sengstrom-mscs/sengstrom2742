@@ -1,6 +1,7 @@
 package domain;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public abstract class Administrator extends Person {
     private LocalDateTime birthDate;
@@ -17,16 +18,18 @@ public abstract class Administrator extends Person {
         this.employmentStartDate = employmentStartDate;
     }
 
+
     public abstract double calcGrossPay();
 
     @Override
     public String toString() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
         return super.toString() +
                 "Administrator{" +
-                "birthDate=" + birthDate +
+                "birthDate=" + formatter.format(birthDate) +
                 ", ssn='" + ssn + '\'' +
                 ", phone='" + phone + '\'' +
-                ", employmentStartDate=" + employmentStartDate +
+                ", employmentStartDate=" + formatter.format(employmentStartDate) +
                 '}';
     }
 

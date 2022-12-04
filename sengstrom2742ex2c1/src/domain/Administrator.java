@@ -17,8 +17,6 @@ public abstract class Administrator extends Person {
         this.employmentStartDate = employmentStartDate;
     }
 
-    public  abstract double calGrossPay();
-
     public abstract double calcGrossPay();
 
     @Override

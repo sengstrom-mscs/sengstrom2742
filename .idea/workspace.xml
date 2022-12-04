@@ -4,27 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732e8c80-e2f4-453c-afcb-4945eb7155c2" name="Changes" comment="completed ex2b completed">
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/resources/people.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/sengstrom2742ex2d.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/dataaccess/PeopleJSONParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/ContractAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/HourlyAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/TimeCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/test/domain/ApartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/test/domain/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/test/domain/LineItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2d/test/domain/PersonTest.java" afterDir="false" />
+    <list default="true" id="732e8c80-e2f4-453c-afcb-4945eb7155c2" name="Changes" comment="completed ex2d completed">
+      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/murachCh9Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/DepartmentConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/ProductApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/ProductDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/ProductReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/ProductWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/resources/people.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/sengstrom2742ex2e.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/dataaccess/PeopleJSONParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Apartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/ContractAdministrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/DbContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/HourlyAdministrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/JSONStringifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Tenant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/TimeCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/exceptions/PersonIllegalArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/exceptions/TimeCardIllegalArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/ApartmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/HourlyAdministratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/InvoiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/LineItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/TimeCardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/HourlyAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/HourlyAdministrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/HourlyAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/HourlyAdministrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2d/sengstrom2742ex2d.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2d/sengstrom2742ex2d.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/HourlyAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/HourlyAdministrator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +57,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -66,7 +88,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "JDK 8.0",
-    "last_opened_file_path": "C:/Users/stace/comc2742-Java/sengstrom2742ex2d/test/domain",
+    "last_opened_file_path": "C:/Users/stace/comc2742-Java/sengstrom2742ex2e/test",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -75,21 +97,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2e\test" />
+      <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2e\src\domain" />
+      <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2e\resources" />
       <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2d\test\domain" />
       <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2d\resources" />
-      <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2d\src\domain" />
-      <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2c1\src" />
-      <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2a\test\domain" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="domain" />
       <recent name="ui" />
       <recent name="dataaccess" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HourlyAdministratorTest.toStringTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.Main" />
-      <module name="sengstrom2742ex2d" />
+      <module name="sengstrom2742ex2e" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ui.*" />
@@ -100,63 +123,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sengstrom2742ex2d" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.ApartmentTest" />
+    <configuration name="HourlyAdministratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sengstrom2742ex2e" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HourlyAdministratorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApartmentTest.setApartmentIdBelowRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sengstrom2742ex2d" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.ApartmentTest" />
-      <option name="METHOD_NAME" value="setApartmentIdBelowRange" />
+    <configuration name="HourlyAdministratorTest.jsonStringifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sengstrom2742ex2e" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HourlyAdministratorTest" />
+      <option name="METHOD_NAME" value="jsonStringifyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sengstrom2742ex2d" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.PersonTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="HourlyAdministratorTest.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sengstrom2742ex2e" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HourlyAdministratorTest" />
+      <option name="METHOD_NAME" value="toStringTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.setPersonConstructorIdBelowRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sengstrom2742ex2d" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.PersonTest" />
-      <option name="METHOD_NAME" value="setPersonConstructorIdBelowRange" />
+    <configuration name="TimeCardTest.jsonStringifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sengstrom2742ex2e" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TimeCardTest" />
+      <option name="METHOD_NAME" value="jsonStringifyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="JUnit.ApartmentTest" />
-        <item itemvalue="JUnit.ApartmentTest.setApartmentIdBelowRange" />
-        <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="JUnit.PersonTest.setPersonConstructorIdBelowRange" />
+        <item itemvalue="JUnit.HourlyAdministratorTest.toStringTest" />
+        <item itemvalue="JUnit.HourlyAdministratorTest.jsonStringifyTest" />
+        <item itemvalue="JUnit.TimeCardTest.jsonStringifyTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.HourlyAdministratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +184,8 @@
       <workItem from="1668276518990" duration="26266000" />
       <workItem from="1668307869978" duration="39000" />
       <workItem from="1668472683686" duration="57000" />
-      <workItem from="1668967736061" duration="10059000" />
+      <workItem from="1668967736061" duration="10110000" />
+      <workItem from="1670174009186" duration="18231000" />
     </task>
     <task id="LOCAL-00001" summary="completed ex2c">
       <created>1668307712254</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668472709716</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="completed ex2d completed">
+      <created>1668986556367</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668986556367</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +243,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="completed ex2c" />
     <MESSAGE value="completed ex2b completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed ex2b completed" />
+    <MESSAGE value="completed ex2d completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed ex2d completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

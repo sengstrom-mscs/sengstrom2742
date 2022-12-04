@@ -43,25 +43,13 @@ public class HourlyAdministrator extends Administrator {
         return timeCards;
     }
 
-//    public double calcTotalHours(){
-//        for (TimeCard timeCard : timeCards){
-//            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mma");
-//            TimeCard startDateTime = LocalDateTime.parse(startDateTime.format(formatter));
-//            TimeCard endDateTime = LocalDateTime.parse(endDateTime.format(formatter));
-//            double totalHours =startDateTime.until(endDateTime, ChronoUnit.MINUTES)/60.0;;
-//
-//
-//        }
-//
-//        return totalHours;
-//
-//    }
-
-    @Override
-    public double calGrossPay() {
-        return 0;
+    public double calcTotalHours() {
+        double totalHours = 0.0;
+        for (TimeCard timeCard : timeCards) {
+            totalHours += timeCard.calcHours();
+        }
+        return totalHours;
     }
-
     @Override
     public double calcGrossPay() {
         return 0;
