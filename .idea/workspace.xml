@@ -4,48 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="732e8c80-e2f4-453c-afcb-4945eb7155c2" name="Changes" comment="completed ex2d completed">
-      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/murachCh9Interfaces.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/DepartmentConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/ProductApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/ProductDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/ProductReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/murachCh9Interfaces/src/ProductWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/resources/people.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/sengstrom2742ex2e.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/dataaccess/PeopleJSONParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/ContractAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/DbContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/HourlyAdministrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/JSONStringifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/LineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/Tenant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/domain/TimeCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/exceptions/PersonIllegalArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/exceptions/TimeCardIllegalArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/src/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/ApartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/HourlyAdministratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/LineItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2e/test/TimeCardTest.java" afterDir="false" />
+    <list default="true" id="732e8c80-e2f4-453c-afcb-4945eb7155c2" name="Changes" comment="completed ex2e completed">
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/resources/readings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/sengstrom2742ex2f.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/src/domain/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/src/domain/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/src/domain/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/src/domain/SensorReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/src/domain/SensorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/src/ui/dataaccess/SensorReadingJSONParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sengstrom2742ex2f/test/domain/SensorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/HourlyAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2a/src/domain/HourlyAdministrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/HourlyAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2c1/src/domain/HourlyAdministrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2d/sengstrom2742ex2d.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2d/sengstrom2742ex2d.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/HourlyAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/sengstrom2742ex2d/src/domain/HourlyAdministrator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -75,26 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "JDK 8.0",
-    "last_opened_file_path": "C:/Users/stace/comc2742-Java/sengstrom2742ex2e/test",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;JDK 8.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/stace/comc2742-Java/sengstrom2742ex2e/test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2e\test" />
@@ -103,41 +77,28 @@
       <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2d\test\domain" />
       <recent name="C:\Users\stace\comc2742-Java\sengstrom2742ex2d\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="domain" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="domain" />
       <recent name="ui" />
       <recent name="dataaccess" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HourlyAdministratorTest.toStringTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SensorTest.findNextCycleMinIndex">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.Main" />
-      <module name="sengstrom2742ex2e" />
+      <module name="sengstrom2742ex2f" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HourlyAdministratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sengstrom2742ex2e" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HourlyAdministratorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HourlyAdministratorTest.jsonStringifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sengstrom2742ex2e" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HourlyAdministratorTest" />
-      <option name="METHOD_NAME" value="jsonStringifyTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +113,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeCardTest.jsonStringifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sengstrom2742ex2e" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TimeCardTest" />
-      <option name="METHOD_NAME" value="jsonStringifyTest" />
+    <configuration name="SensorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sengstrom2742ex2f" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.SensorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SensorTest.findNextCycleMaxIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sengstrom2742ex2f" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.SensorTest" />
+      <option name="METHOD_NAME" value="findNextCycleMaxIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SensorTest.findNextCycleMinIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sengstrom2742ex2f" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.SensorTest" />
+      <option name="METHOD_NAME" value="findNextCycleMinIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SensorTest.findNextCycleMinIndex" />
+        <item itemvalue="JUnit.SensorTest.findNextCycleMaxIndex" />
+        <item itemvalue="JUnit.SensorTest" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.HourlyAdministratorTest.toStringTest" />
-        <item itemvalue="JUnit.HourlyAdministratorTest.jsonStringifyTest" />
-        <item itemvalue="JUnit.TimeCardTest.jsonStringifyTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.HourlyAdministratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +183,8 @@
       <workItem from="1668307869978" duration="39000" />
       <workItem from="1668472683686" duration="57000" />
       <workItem from="1668967736061" duration="10110000" />
-      <workItem from="1670174009186" duration="18231000" />
+      <workItem from="1670174009186" duration="22333000" />
+      <workItem from="1670611944927" duration="4718000" />
     </task>
     <task id="LOCAL-00001" summary="completed ex2c">
       <created>1668307712254</created>
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668986556367</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed ex2e completed">
+      <created>1670193759937</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670193759937</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +250,8 @@
     <MESSAGE value="completed ex2c" />
     <MESSAGE value="completed ex2b completed" />
     <MESSAGE value="completed ex2d completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed ex2d completed" />
+    <MESSAGE value="completed ex2e completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed ex2e completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
